@@ -35,7 +35,7 @@ def go_two_seconds():
     right_motor = rb.LargeMotor(rb.Plug('A'))
     right_motor.start()  # Constructs a Motor for the left wheel
     left_motor.start()
-    
+
     left_motor.brake()
     right_motor.brake()
 
